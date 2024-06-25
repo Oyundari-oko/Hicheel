@@ -1,0 +1,83 @@
+.container{
+    background-color: black; width:50px; height: 50px; border-radius:50%; color: greenyellow;display: flex; justify-content: center; align-items: center;"
+}
+.round {
+ display: flex; flex-direction: row;
+}
+.round1{
+    color: black;font-size: 20px
+}
+.round2{
+    color: #ababab; font-size: 15px;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.price{
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+.price-card:hover{
+    border: 2px solid green;
+}
+
+.price-card-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.order{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 0;
+    gap:12px;
+}
+.button {
+    background-color: #18ba51;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .footer {
+    display: flex;
+    background-color: #101010;
+    width: 1440px;
+    height: 228px;
+    color: white;
+    padding: 80px 120px;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  
+  .social {
+    background-color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    cursor: pointer;
+  }
+  
+  .social:hover {
+    color: red;
+  }
+  
+  ul {
+    list-style-position: inside;
+  }
